@@ -1,0 +1,25 @@
+/* Default styles */
+
+/* Add your default styles here */
+
+/* Media queries for different screen sizes */
+
+/* Small devices (phones, 576px and up) */
+@media (min-width: 576px) {
+    /* Add your styles for small devices here */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    /* Add your styles for medium devices here */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    /* Add your styles for large devices here */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    /* Add your styles for extra large devices here */
+}

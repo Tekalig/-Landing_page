@@ -1,6 +1,9 @@
 /* Default styles */
 
 /* Add your default styles here */
+.hero {
+    background-color: #1f2937;
+}
 
 /* Media queries for different screen sizes */
 

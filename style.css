@@ -8,28 +8,169 @@ body {
     box-sizing: border-box;
 }
 /* Add your default styles here */
+.landing{
+    color: #fff;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    padding: 0;
+    gap: 1rem;
+}
+
+.logo {
+    padding-left: 1rem;
+    width: 60px;
+    height: 60px;
+}
+
+.menu{
+    margin-left: auto;
+    padding-right: 1rem;
+}
+
+.menu ul{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menu a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 30px;
+    gap: 1rem;
+}
+
+.main h1 {
+    font-size: 3rem;
+    color: #f9faf8;
+    font-weight: extra-bold;
+}
+
+.main p {
+    font-size: 1.5rem;
+    color: #e5e7eb;
+}
+
+.main img {
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.main button {
+    background-color: #3882f6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.info-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: #1f2937;
+    padding: 0;
+    gap: 1rem;
+}
+
+.info-item {
+    width: 20%;
+    margin-bottom: 10px;
+}
+
+.information h1 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: extra-bold;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: lighter;
+    font-style: italic;
+    padding: 30px;
+}
+
+blockquote {
+    width: 70%;
+    margin: 0 auto;
+}
+
 .hero, .footer {
     background-color: #1f2937;
 }
 
+section.text {
+    width: 50%;
+}
+
+li {
+    list-style: none;
+    margin: 10px;
+}
+
+img {
+    width: 200px;
+    height: 230px;
+    border-radius: 10px;
+    object-fit: cover;
+    padding: 10px;
+}
+
+.footer {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0;
+}
 /* Media queries for different screen sizes */
 
 /* Small devices (phones, 576px and up) */
-@media (min-width: 576px) {
-    /* Add your styles for small devices here */
+@media (max-width: 576px) {
+    .main {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    /* Add your styles for medium devices here */
+    .flex-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    /* Add your styles for large devices here */
+    .flex-container {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-    /* Add your styles for extra large devices here */
+    .flex-container {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
 }
+

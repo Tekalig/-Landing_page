@@ -8,7 +8,7 @@ body {
     box-sizing: border-box;
 }
 /* Add your default styles here */
-.hero {
+.hero, .footer {
     background-color: #1f2937;
 }
 
